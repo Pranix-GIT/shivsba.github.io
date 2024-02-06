@@ -582,3 +582,9 @@ ul.course-list li:nth-child(4) {
 	padding-top:20px;
 	color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .header-menu ul li {
+    display: block;
+    margin-left: 0;
+  }
+}
