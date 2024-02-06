@@ -79,7 +79,7 @@ html {
 	text-align: center;
 }
 .heading-section span {
-	color: #787eff;
+	color: #fd8303;
 }
 .subhead-section {
 	font-size: 16px;
@@ -88,7 +88,7 @@ html {
 }
 /* HEADER TOP SECTION HEADER TOP SECTION HEADER TOP SECTION HEADER TOP SECTION HEADER TOP SECTION HEADER TOP SECTION */
 .header-top {
-	background: #787eff;
+	background: #fd8303;
 	width: 100%;
 	float: left;
 }
@@ -182,7 +182,7 @@ html {
 }
 .about-detail h6 {
 	font-size:16px;
-	color: #787eff;
+	color: #fd8303;
 }
 .about-detail h1 {
 	font-size: 32px;
@@ -190,7 +190,7 @@ html {
 	color: #1f2836;
 }
 .about-detail h1 span {
-	color: #787eff;
+	color: #fd8303;
 }
 .about-detail p {
 	font-size: 14px;
@@ -205,7 +205,7 @@ html {
 	padding: 15px 15px;
 	text-align:center;
 	margin-top:10px;
-	border: 2px solid #787eff;
+	border: 2px solid #fd8303;
 }
 .about-box img {
 	height:100px;
@@ -230,12 +230,12 @@ html {
 	padding: 10px 10px 10px 20px;
 	width: 100%;
 	float: left;
-	color: #787eff;
+	color: #fd8303;
 }
 .notice-board {
 	width: 100%;
 	float: left;
-	border:3px solid #787eff;
+	border:3px solid #fd8303;
 	margin-top: 10px;
 	border-radius: 10px;
 }
@@ -264,7 +264,7 @@ html {
 .event-list li {
 	width: 100%;
 	float: left;
-	box-shadow: 0px 0px 2px 0px #ffffff1f;
+	box-shadow: 0px 0px 2px 0px #fd8303;
 	margin-bottom: 20px;
 	list-style: none;
 	padding: 10px 6px 10px 5px;
@@ -275,7 +275,7 @@ html {
 	float: left;
 	width:85px;
 	text-align: center;
-	border:2px solid #787eff;
+	border:2px solid #fd8303;
 	padding-top: 5px;
 	border-radius: 10px;
 }
@@ -285,7 +285,7 @@ html {
 }
 .event-date p {
 	font-size: 14px;
-	background: #787eff;
+	background: #fd8303;
 	color: #fff;
 	padding: 5px;
 	margin-top: 5px;
@@ -302,7 +302,7 @@ html {
 	font-weight: 500;
 }
 .event-content a {
-	color: #787eff;
+	color: #fd8303;
 	text-decoration: none;
 	font-weight: bold;
 	margin-right: 50px;
