@@ -340,7 +340,7 @@ html {
 	color: #fff;
 }
  ul.course-list li:nth-child(1) {
- background: #2196f3;
+ background: #fd8303;
 }
 ul.course-list li:nth-child(2) {
  background: #ff5722;
@@ -354,7 +354,7 @@ ul.course-list li:nth-child(4) {
 /* PRINCIPAL SECTION   PRINCIPAL SECTION   PRINCIPAL SECTION   PRINCIPAL SECTION   PRINCIPAL SECTION   PRINCIPAL SECTION   PRINCIPAL SECTION   */
 .principal-img img {
 	width:100%;
-	border:5px solid #787eff;
+	border:5px solid #fd8303;
 	padding:4px
 }
 .principal-info {
@@ -365,7 +365,7 @@ ul.course-list li:nth-child(4) {
 .principal-info h6 {
 	font-size: 15px;
 	margin-bottom: 15px;
-	color: #787eff;
+	color: #fd8303;
 }
 .principal-info h1 {
 	color: black;
@@ -373,7 +373,7 @@ ul.course-list li:nth-child(4) {
 	margin-bottom: 20px;
 }
 .principal-info h1 span {
-	color: #787eff;
+	color: #fd8303;
 }
 .principal-info h5 {
 	font-size: 16px;
@@ -388,7 +388,7 @@ ul.course-list li:nth-child(4) {
 	color:#1e1e1e;
 }
 .principal-info a {
-	background: #787eff;
+	background: #fd8303;
 	text-decoration: none;
 	color: #fff;
 	padding: 12px 20px;
@@ -412,7 +412,7 @@ ul.course-list li:nth-child(4) {
 	padding: 30px 20px 30px 20px;
 	width: 90%;
 	margin: 1%;
-	background: #787eff;
+	background: #fd8303;
 	color: #fff;
 	border-radius:10px;
 }
@@ -483,7 +483,7 @@ ul.course-list li:nth-child(4) {
 .tetimonial .fa-quote-right {
 	font-size:40px;
 	margin-top: 5px;
-	color:#787eff;
+	color:#fd8303;
 }
 .testimonial-comment {
 	width: 100%;
@@ -491,7 +491,7 @@ ul.course-list li:nth-child(4) {
 	margin-top: 30px;
 }
 .testimonial-comment h4 {
-	color: #787eff;
+	color: #fd8303;
 	font-size: 20px;
 	margin-bottom:15px;
 }
@@ -510,7 +510,7 @@ ul.course-list li:nth-child(4) {
 .footer-section {
 	padding-top: 50px;
 	padding-bottom:20px;
-	background: #787eff;
+	background: #fd8303;
 	width: 100%;
 	float: left;
 }
@@ -536,7 +536,7 @@ ul.course-list li:nth-child(4) {
 	width: 40px;
 	text-align: center;
 	line-height: 40px;
-	color: #787eff;
+	color: #fd8303;
 }
 .quick-link ul {
 	margin-top:30px;
