@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kids School Registration Form</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="styl1.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Registration Form</h1>
+		<form action="#">
+			<div class="form-group">
+				<label for="student-name">Student Name:</label>
+				<input type="text" id="student-name" required>
+			</div>
+			<div class="form-group">
+				<label for="parent-name">Parents Name:</label>
+				<input type="text" id="parent-name" required>
+			</div>
+			<div class="form-group">
+				<label for="phone-number">Phone Number:</label>
+				<input type="tel" id="phone-number" required>
+			</div>
+			<div class="form-group">
+				<label for="address">Address:</label>
+				<textarea id="address" required></textarea>
+			</div>
+			<div class="form-group">
+				<label for="class-applying">Class Applying For:</label>
+				<select id="class-applying" required>
+					<option value="">Select Class</option>
+					<option value="Nursery">Nursery</option>
+					<option value="KG">KG</option>
+					<option value="Class1">Class 1</option>
+					<option value="Class2">Class 2</option>
+					<option value="Class3">Class 3</option>
+					<option value="Class4">Class 4</option>
+					<option value="Class5">Class 5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="age">Age:</label>
+				<input type="number" id="age" required>
+			</div>
+			<div class="form-group">
+				<label for="sex">Sex:</label>
+				<div class="radio-group">
+					<input type="radio" id="male" name="sex" value="male" required>
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="sex" value="female" required>
+					<label for="female">Female</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
