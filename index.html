@@ -1,204 +1,388 @@
-<!DOCTYPE html><html lang="en"><head>
-<title>Live Preview Design school college Website using HTML CSS with source code</title>
-<meta name="robots" content="noindex, nofollow">
-<meta name="description" content="Shiv Shakti Bal Academy, Chandra Ayodhyapur - Siraha ( Nepal ) ">
-<link rel="canonical" href="https://www.dezven.com/preview/design-college-website-using-html-css">
-<meta name="keywords" content="Live Preview of Design College Website using HTML CSS, How to create college website using HTML and CSS">
-<meta name="twitter:site" content="@dezven">
-<meta name="twitter:title" content="Live Preview Design school college Website using HTML CSS with source code">
-<meta name="twitter:description" content="Live Preview In this tutorial we are going to design school college website using html css.  We are not going to use any jquery. It is design using pure HTML CSS only">
-<meta name="twitter:image" content="https://www.dezven.com/images/project/design-college-website-using-html-css.webp">
-<meta property="og:title" content="Live Preview Design school college Website using HTML CSS with source code">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://www.dezven.com/preview/design-college-website-using-html-css">
-<meta property="og:image" content="images/design-college-website-using-html-css.webp">
-<meta property="og:description" content="Live Preview In this tutorial we are going to design school college website using html css.  We are not going to use any jquery. It is design using pure HTML CSS only">
-<meta property="og:site_name" content="dezven.com">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#199b3c"><meta name="google-site-verification" content="w-b4XevJmlAi7e0uzUiP_NAgJW8gejaVU8DhN8__Gtk"><link rel="shortcut icon" href="images/favicon.png"><link rel="apple-touch-icon" href="images/favicon.png"><link rel="icon" sizes="192x192" href="images/favicon.png"><link href="css/styles.css" rel="stylesheet"><style> @font-face { font-family:FontAwesome;src:url(fonts/fontawesome-webfont.woff) format('woff'); } </style>  <script> setTimeout(function() { if(document.readyState === 'complete') { var tag = document.createElement("script");  tag.src = 'https://www.googletagmanager.com/gtag/js?id=UA-78988758-1'; document.getElementsByTagName("head")[0].appendChild(tag);  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());  gtag('config', 'UA-78988758-1'); var tag1 = document.createElement("script"); tag1.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7230902060603065'; document.getElementsByTagName("head")[0].appendChild(tag1); 	} }, 3000);  </script><style>
-ul.searchlist {
-    list-style: none;
-    padding: 0 15px;
-    width: 100%;
-    float: left;
-    position: absolute;
-    background: #fff;
-    max-height: 300px;
-    overflow: scroll;
-    z-index: 99999999;
-    top: 38px;
-    overflow-x: hidden;
-    display: none;
-    box-shadow: 0 2px 8px 1px rgba(64,60,67,.24);
-    border-color: rgba(223,225,229,0);
-	border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-ul.searchlist li {
-    border-bottom: 1px solid #0000001c;
-    width: 100%;
-    float: left;
-    padding-bottom: 8px;
-    padding-top: 8px;
-}
-ul.searchlist li a {
-    font-size: 17px;
-    color: #5a5a5a;
-    font-weight: 400;
-    width: 100%;
-    float: left;
-    text-align: left;
-    padding: 2px 10px;
-    cursor: pointer;
-}
-</style>
-<style>
-.btn-l-r {
-	padding: 8px 18px;
-	font-size: 16px;
-	border-radius: 4px;
-	font-weight: 400;
-	float: right;
-	margin-top: 5px;
-}
-@media screen and (max-width:767px) {
-.btn-l-r {
-	padding: 6px 10px;
-	font-size: 14px;
-	border-radius: 5px;
-	font-weight: 400;
-	margin-top: 6px;
-	float:right;
-}
-}
-.popup-overlay {
-	width: 100%;
-	background: #00000024;
-	height: 100%;
-	position: fixed;
-	top: 0px;
-	z-index:99999999;
-	left: 0px;
-}
-.popup-inner-left {
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0px;
-	background: #fff;
-	max-width: 500px;
-	right: 0px;
-	z-index: 999999;
-}
-.popup-inner-left .head {
-	font-size:24px;
-	text-align: left;
-	border-bottom: 1px dotted #000;
-	font-weight:500;
-}
-.ft-64 {
-	font-size:64px;
-}
-.ft-32 {
-	font-size:32px;
-}
-.ft-24 {
-	font-size:24px;
-}
-.fa-cloud-download:before {
-    content: "\f0ed";
-}
-.fa-eye:before {
-    content: "\f06e";
-}
-.fa-credit-card:before {
-    content: "\f09d";
-}
-.fa-lightbulb-o:before {
-    content: "\f0eb";
-}
-.fa-folder-o:before {
-    content: "\f114";
-}
-.fa-angle-double-up:before {
-    content: "\f102";
-}
-.fa-folder-open:before {
-    content: "\f07c";
-}
-.fa-check-circle:before {
-    content: "\f058";
-}
-.fa-file-code-o:before {
-    content: "\f1c9";
-}
-</style><style>
-body{
-	margin:0px;
-	padding:0px;
-	width: 100%;
-	height:100%;
-	overflow:hidden;
-}
-iframe{
-	width: 100%;
-	height:100%;
-	height: 100vh;
-    width: 100vw;
-	/*padding-bottom: 50px;*/
-}
-
-a.view-code {
-	margin-left:20px!important;
-}
-a.view-more {
-}
-a.view-code i, a.view-more i{
-    font-size:16px;
-}
-.fa-codepen:before {
-    content: "\f1cb";
-}
-.fa-code:before {
-    content: "\f121";
-}
-.main-panel-sect {
-    background: #9CCC65;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    float: left;
-    padding:10px 0px;
-	display:none;
-}
-a.view-code, a.view-more {
-    background: #4CAF50;
-    color: #fff;
-    padding:8px 8px;
-    font-size:14px;
-    border-radius:10px;
-    box-shadow:0px 0px 10px 0px #0000008a;
-	float:left;
-	margin-left:10px;
-}
-.main-panel-sect-inner {
-	width:100%;
-    max-width:600px;
-    margin: 0px auto;
-    text-align: center;
-}
-</style>
-
+<html>
+<head>
+<title>Website Site</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<iframe src="https://demo.dezven.com/project/web-design/school-website-using-only-html-css/" height="100%" width="100%" frameborder="0" noresize="noresize"></iframe>
-
-<div class="main-panel-sect">
-	<div class="main-panel-sect-inner">	
-<a href="https://www.dezven.com/project/" class="view-more"><i class="fa fa-eye" aria-hidden="true"></i> View More Similar Project</a>
-<a href="https://www.dezven.com/project/design-college-website-using-html-css" class="view-code"><i class="fa fa-codepen" aria-hidden="true"></i> View Source Code</a>
+<div class="header-top">
+  <div class="container">
+    <div class="width-50" >
+      <ul class="header-left ">
+        <li> <a href="#"><i class="fa fa-phone"></i></i> <span>123-456-7890</span> </a></li>
+        <li><a href="#"><i class="fa fa-envelope-o"></i> <span>info@yourmail.com</span> </a></li>
+      </ul>
+    </div>
+    <div class="width-50" >
+      <ul class="header-right">
+        <li><a href="#"><i class="fa fa-facebook "></i> </a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a> </li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+      </ul>
+    </div>
   </div>
 </div>
-
-
-
-</body></html>
+<div class="width-100 ">
+  <div class="container">
+    <div class="header-menu">
+      <div class="width-40" >
+        <ul>
+          <li><a href="#">Home </a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Notice</a></li>
+        </ul>
+      </div>
+      <div class="width-20"><img src="images/logo.png" class="logo">&nbsp;</div>
+      <div class="width-40" >
+        <ul style="float:right;">
+          <li><a href="#">Addmission</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="width-100"><img src="images/banner.jpg" class="banner"></div>
+<div class="notification">
+  <div class="container"> <b>Notification : </b>
+    <marquee direction="left"  scrollamount="10">
+    <img src="images/new.gif"> Report of Acrivities to submitted till 15/02/2023 Appointed counseling of Director <img src="images/new.gif"> Report of Acrivities to submitted till 15/02/2023 Appointed counseling of Director <img src="images/new.gif"> Report of Acrivities to submitted till 15/02/2023 Appointed counseling of Director
+    </marquee>
+  </div>
+</div>
+<div class="main-section" >
+  <div class="container">
+    <div class="width-40">
+      <div class="about-img"><img src="images/about-us.jpg"> </div>
+    </div>
+    <div class="width-60">
+      <div class="about-detail">
+        <h6>About us</h6>
+        <h1>Hi, Wecome To <span>Our Campus </span> Group Of College</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="width-30">
+          <div class="about-box"> <img src="images/award-1.png">
+            <h5>Best Trainer</h5>
+            <p>2022-2023</p>
+          </div>
+        </div>
+        <div class="width-30">
+          <div class="about-box"> <img src="images/award-2.png">
+            <h5>Best Porfomance</h5>
+            <p>2022-2023</p>
+          </div>
+        </div>
+        <div class="width-30">
+          <div class="about-box"> <img src="images/award-3.png">
+            <h5>Top Placement</h5>
+            <p>500+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-section bg-grey">
+  <div class="container">
+    <div class="width-50">
+      <div class="notice-board-sect">
+        <h2><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Notice Bord</h2>
+        <div class="notice-board">
+          <marquee direction="up"  scrollamount="4" height="400">
+          <ul>
+            <li><img src="images/new.gif"> Report of Acrivities to submitted till 15/02/2023 Appointed counseling of Director</li>
+            <li><img src="images/new.gif"> Regarding preparation Appointed counseling of Director of nAAC</li>
+            <li> <img src="images/new.gif"> Counseler has been  Appointed counseling of Student </li>
+            <li> <img src="images/new.gif"> Meeting to Organized on College Level College Level  15/02/202 </li>
+            <li> <img src="images/new.gif"> Counseler has been  Appointed counseling of Doctor </li>
+            <li> <img src="images/new.gif"> Conducted its 2nd convocation ceremony. </li>
+            <li> <img src="images/new.gif"> Counseler has been College Level   Appointed counseling of Director </li>
+            <li> <img src="images/new.gif"> 16 feb 2022 Ph D merit list Part 01_16 feb 2022 </li>
+            <li> <img src="images/new.gif"> List of Activities organised under TEQIP-III </li>
+            <li> <img src="images/new.gif"> School of Architecture College Level counselling 2022-23 </li>
+            <li> <img src="images/new.gif"> Documents for empanellment of vendor for A Class contyractor </li>
+            <li> <img src="images/new.gif"> Counseler has been  Appointed counseling of Director </li>
+            <li> <img src="images/new.gif"> Counseler has been  Appointed counseling of Director </li>
+            <li> <img src="images/new.gif"> Counseler has been  Appointed counseling of Director </li>
+          </ul>
+          </marquee>
+        </div>
+      </div>
+    </div>
+    <div class="width-50">
+      <div class="notice-board-sect">
+        <h2><i class="fa fa-id-card" aria-hidden="true"></i> Upcoming Events</h2>
+        <div class="notice-board">
+          <marquee direction="up" scrollamount="4" height="400">
+          <ul class="event-list">
+            <li>
+              <div class="event-date">
+                <h3>27 <br>
+                  April</h3>
+                <p>9:00 PM<br>
+                  4:00 AM</p>
+              </div>
+              <div class="event-content">
+                <h5> School  Level counselling 2022-23</h5>
+                <a href="#"><i class="fa fa-user icon"></i></i> Join bood</a> <a  href="#"><i class="fa fa-map-marker"></i> New Yark</a>
+                <p>West Zone Inter University Table Teniss (man) Tournament 2022-23</p>
+              </div>
+            </li>
+            <li>
+              <div class="event-date">
+                <h3>27 <br>
+                  April</h3>
+                <p>9:00 PM<br>
+                  4:00 AM</p>
+              </div>
+              <div class="event-content">
+                <h5> School  Level counselling 20-Dec-203</h5>
+                <a href="#"><i class="fa fa-user icon"></i></i> Join bood</a> <a  href="#"><i class="fa fa-map-marker"></i> New Yark</a>
+                <p>If you are going to use a to use a to use a to use  of text</p>
+              </div>
+            </li>
+            <li>
+              <div class="event-date">
+                <h3>27 <br>
+                  April</h3>
+                <p>9:00 PM<br>
+                  4:00 AM</p>
+              </div>
+              <div class="event-content">
+                <h5>West Inter University Table Teniss</h5>
+                <a href="#"><i class="fa fa-user icon"></i></i> Join bood</a> <a  href="#"><i class="fa fa-map-marker"></i> New Yark</a>
+                <p>Use a to use a to use a in the middle of text Tournament</p>
+              </div>
+            </li>
+          </ul>
+          </marquee>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-section">
+  <div class="container">
+    <h2 class="heading-section"> Most Popular Top <span>Courses</span> </h2>
+    <p class="subhead-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+    <ul class="course-list">
+      <li><i class="fa fa-heartbeat"> </i>
+        <p>Medical</p>
+      </li>
+      <li><i class="fa fa-globe"> </i>
+        <p>Geography</p>
+      </li>
+      <li><i class="fa fa-line-chart"> </i>
+        <p>Sales</p>
+      </li>
+      <li><i class="fa fa-book"> </i>
+        <p>Teacher</p>
+      </li>
+    </ul>
+    <ul class="course-list">
+      <li><i class="fa fa-camera"> </i>
+        <p>B.Tech</p>
+      </li>
+      <li><i class="fa fa-hdd-o"> </i>
+        <p>MBA</p>
+      </li>
+      <li><i class="fa fa-camera"> </i>
+        <p>Digitalization</p>
+      </li>
+      <li><i class="fa fa-pie-chart"> </i>
+        <p>Marketing</p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="main-section bg-grey">
+  <div class="container">
+    <div class="width-40">
+      <div class="principal-img"> <img src="images/principal.jpg"> </div>
+    </div>
+    <div class="width-60">
+      <div class="principal-info">
+        <h6>Learn Anything</h6>
+        <h1>Principal of <span>Our Campaus</span> Group</h1>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.If you are going to use a passage.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.If you are going to use a passage of anything embarrassing hidden in the middle of text Lorem ipsum</P>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.If you are going to use a passage of a Lorem ipsum</P>
+        <a href="#"><i class="fa fa-angle-right"></i> Read More</a> </div>
+    </div>
+  </div>
+</div>
+<div class="main-section">
+  <div class="container">
+    <h1 class="heading-section">Images Of <span>Gallery of</span> Our Campus</h1>
+    <span class="heading-border"></span>
+    <div class="gallery">
+      <div class="width-25"><img src="images/gallery-1.jpg"></div>
+      <div class="width-25"><img src="images/gallery-2.jpg"></div>
+      <div class="width-25"><img src="images/gallery-3.jpg"></div>
+      <div class="width-25"><img src="images/gallery-4.jpg"></div>
+      <div class="width-25"><img src="images/gallery-5.jpg"></div>
+      <div class="width-25"><img src="images/gallery-6.jpg"></div>
+      <div class="width-25"><img src="images/gallery-7.jpg"></div>
+      <div class="width-25"><img src="images/gallery-8.jpg"></div>
+    </div>
+  </div>
+</div>
+<div class="main-section bg-grey">
+  <div class="container">
+    <div class="width-25">
+      <div class="counter"><i class="fa fa-graduation-cap"></i>
+        <h5>88,000</h5>
+        <p>Student Enrolled</p>
+      </div>
+    </div>
+    <div class="width-25">
+      <div class="counter"><i class="fa fa-book"></i>
+        <h5>49,555</h5>
+        <p>Class Complete</p>
+      </div>
+    </div>
+    <div class="width-25">
+      <div class="counter"> <i class="fa fa-users"></i>
+        <h5>219</h5>
+        <p>Skilled Instructors</p>
+      </div>
+    </div>
+    <div class="width-25">
+      <div class="counter"> <i class="fa fa-bookmark-o"></i>
+        <h5>125</h5>
+        <p>Overall Course's</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-section">
+  <div class="container">
+    <div class="width-60">
+      <div class="placement">
+        <h1 class="heading-section">Our Top <span>Placement</span> Company</h1>
+        <p>Placement is understood as assigning jobs to the selected candidates. Assigning jobs to employ­ees may involve a new job or different job. Thus, placement may include initial assignment of job to new employee, on present employees.</p>
+        <ul>
+          <li><img src="images/company-1.jpg" class="img"></li>
+          <li><img src="images/company-2.jpg" class="img"></li>
+          <li><img src="images/company-3.jpg" class="img"></li>
+          <li><img src="images/company-4.jpg" class="img"></li>
+          <li><img src="images/company-5.jpg" class="img"></li>
+          <li><img src="images/company-6.jpg" class="img"></li>
+          <li><img src="images/company-7.jpg" class="img"></li>
+          <li><img src="images/company-8.jpg" class="img"></li>
+          <li><img src="images/company-9.jpg" class="img"></li>
+          <li><img src="images/company-10.jpg" class="img"></li>
+          <li><img src="images/company-11.jpg" class="img"></li>
+          <li><img src="images/company-12.jpg" class="img"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="width-40"><img src="images/placement.jpg" class="placement-img"></div>
+  </div>
+</div>
+<div class="main-section bg-grey">
+  <div class="container">
+    <h2 class="heading-section"> What <span>Student Say's</span> About Our Campus</h2>
+    <p class="subhead-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+    <marquee direction="left"  height="400" scrollamount="5">
+      <div  class="tetimonial">
+        <div class="width-100">
+          <div class="width-20"> <img src="images/testimonial-1.jpg"> </div>
+          <div class="width-60">
+            <div class="tetimonial-user">
+              <h4><strong>Julia Mikasa</strong></h4>
+              <p>Web Developer </p>
+            </div>
+          </div>
+          <div class="width-20"> <i class="fa fa-quote-right"></i> </DIV>
+        </div>
+        <div class="testimonial-comment">
+          <h4 class="size">Great Courses</h4>
+          <p class="paragraph1"> Lorem Ipsum is simply dummy text of the print<br>
+            and typesetting industry.Lorem Ipsum has been<br>
+            the industry's standard dummy text ever since<br>
+            the 1500s, when an unknown printer a galley.</p>
+          <i class="fa fa-star star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> </div>
+      </div>
+      <div  class="tetimonial">
+        <div class="width-100">
+          <div class="width-20"> <img src="images/testimonial-2.jpg"> </div>
+          <div class="width-60">
+            <div class="tetimonial-user">
+              <h4><strong>Julia Mikasa</strong></h4>
+              <p>Web Developer </p>
+            </div>
+          </div>
+          <div class="width-20"> <i class="fa fa-quote-right"></i> </DIV>
+        </div>
+        <div class="testimonial-comment">
+          <h4 class="size">Great Courses</h4>
+          <p class="paragraph1"> Lorem Ipsum is simply dummy text of the print<br>
+            and typesetting industry.Lorem Ipsum has been<br>
+            the industry's standard dummy text ever since<br>
+            the 1500s, when an unknown printer a galley.</p>
+          <i class="fa fa-star star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> </div>
+      </div>
+ 
+      <div  class="tetimonial">
+        <div class="width-100">
+          <div class="width-20"> <img src="images/testimonial-3.jpg"> </div>
+          <div class="width-60">
+            <div class="tetimonial-user">
+              <h4><strong>Julia Mikasa</strong></h4>
+              <p>Web Developer </p>
+            </div>
+          </div>
+          <div class="width-20"> <i class="fa fa-quote-right"></i> </DIV>
+        </div>
+        <div class="testimonial-comment">
+          <h4 class="size">Great Courses</h4>
+          <p class="paragraph1"> Lorem Ipsum is simply dummy text of the print<br>
+            and typesetting industry.Lorem Ipsum has been<br>
+            the industry's standard dummy text ever since<br>
+            the 1500s, when an unknown printer a galley.</p>
+          <i class="fa fa-star star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> <i class="fa fa-star  star"></i> </div>
+      </div>
+   
+    </marquee>
+  </div>
+</div>
+<div class="footer-section">
+  <div class="container ">
+    <div class="width-33 footer-about">
+      <h3>Our Campus</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+      <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-linkedin"></i> <i class="fa fa-instagram"></i> </div>
+    <div class="width-33 quick-link">
+      <h3> Quick Links</h3>
+      <div class=" width-100">
+        <ul>
+          <li><a href="#"><i class="fa fa-angle-right"></i> About us</a></li>
+          <li ><a href="#"><i class="fa fa-angle-right"></i> Courses Grid </a></li>
+          <li> <a href="#"><i class="fa fa-angle-right"></i> Courses Details</a></li>
+          <li> <a href="#"><i class="fa fa-angle-right"></i> Events </a></li>
+          <li> <a href="#"><i class="fa fa-angle-right"></i> Event Details</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i> Gallery</a></li>
+          <li ><a href="#"><i class="fa fa-angle-right"></i> Teachers </a></li>
+          <li><a href="#"> <i class="fa fa-angle-right"></i> FAQ</a></li>
+          <li><a href="#"> <i class="fa fa-angle-right"></i> Login </a></li>
+          <li><a href="#"> <i class="fa fa-angle-right"></i> Contact Us </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class=" width-33 subscribe-us">
+      <h3>Get In Touch</h3>
+      <p> Subscribe with us to get a quick notification of our latest update's.</p>
+      <input type="submit" name="learn more" value="Subcribe with me" class="">
+      <button class="button2"><i class="fa fa-paper-plane-o"></i> Submit</button>
+    </div>
+  </div>
+  <div class="copyright"> Copyright @ 2023 All Copyright dezven.com</div>
+</div>
+</body>
+</html>
